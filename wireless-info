@@ -35,7 +35,7 @@ LSMODMATCHES="(wmi|(dell|ideapad)[-_]laptop)"
 DMESGMATCHES="(wlan[0-9]|eth[1-9]|firmware|[nN]etwork)"
 NMPROFMATCHES="\(\[connection\]\|id=\|type=\|permissions=\|autoconnect=\|\[802-11-wireless\]\|\[wifi\]\|ssid=\|bssid=\|mac-address\(-blacklist\)\?=\|mtu=\|\[802-1x\]\|[[:graph:]]*ca-certs\?=\|\[ipv[46]\]\|method=\)"
 
-DMESGEXCL="apparmor|(cfg|mac)80211"
+DMESGEXCL="apparmor"
 MODINFOEXCL="alias"
 MODPROBEXCL="(alsa-base|blacklist-(firewire|framebuffer|modem|oss|watchdog)|fglrx|nvidia|fbdev|bumblebee)"
 PMUTILSEXCL="/etc/pm/(power.d/(95hdparm-apm|intel-audio-powersave|sata_alpm)|sleep.d/(10_grub-common|10_unattended-upgrades.*|novatel_3g.*))"
